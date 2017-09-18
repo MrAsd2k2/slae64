@@ -2,7 +2,7 @@
 ; Assignment 2 - password protected reverse shell  
 ; Shellcode length 113 bytes 
 ; 
-; Connect to 127.0.0.1 port 1234
+; Connects to address 127.0.0.1 port 1234
 ; Password = "andbruna" 
 
 global _start
