@@ -1,3 +1,6 @@
+// Andrea Bruna SLAE64 - 1493
+// Proof of Concept of a "Egghunter" assembly routine to find a shellcode stred somewhere in the stack 
+
 #include <stdio.h>
 #include <string.h>
 
@@ -48,9 +51,6 @@
 //	add al,59
 //	syscall
 // 
-
-
-
 
 
 
