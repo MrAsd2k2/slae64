@@ -1,3 +1,5 @@
+/* Andrea Bruna SLAE64 - 1493 */
+
 #include <stdio.h>
 #include <string.h>
 
