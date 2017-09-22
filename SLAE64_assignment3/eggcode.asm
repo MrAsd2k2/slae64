@@ -1,3 +1,6 @@
+; Andrea Bruna SLAE64 - 1493
+; Egghunter sample routine 
+
 global _start
 
 section .text
@@ -17,5 +20,5 @@ loop:
 	pop rdi ; load it in rdi
 	scasq ; compare the memory pointed to scasq with rax
 	jnz loop ; jump if not equal
-	jmp rdi ; "EGGEGG" found jump 
+	jmp rdi ; "EGGEGG" found, jump to the shellcode
 
